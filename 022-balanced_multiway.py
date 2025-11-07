@@ -1,6 +1,7 @@
 """
 022-balanced_multiway.py
 Esquema simplificado de Balanced Multiway Merging: mezclar k runs a la vez.
+Autor: Alejandro Aguirre Díaz
 """
 def multiway_merge(runs):
     import heapq

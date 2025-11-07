@@ -2,6 +2,7 @@
 020-external_straight_merging.py
 Simulación simple de Straight Merging (mezclas directas) usando listas como 'fueses' de disco.
 En un entorno real se usan archivos y ficheros temporales.
+Autor: Alejandro Aguirre Díaz
 """
 import sys
 from collections import deque

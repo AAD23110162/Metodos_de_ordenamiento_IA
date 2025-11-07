@@ -1,6 +1,7 @@
 """
 021-external_natural_merging.py
 Simulación de Natural Merging: detectar runs naturales en la entrada y mezclarlos.
+Autor: Alejandro Aguirre Díaz
 """
 # Simplificado: detectar runs ascendentes
 def find_natural_runs(a):

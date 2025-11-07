@@ -1,6 +1,7 @@
 """
 024-distribution_initial_runs.py
 Distribución de runs iniciales (simulación): dividir entrada en runs y asignar a ficheros/buckets.
+Autor: Alejandro Aguirre Díaz
 """
 def distribute_runs(a, bucket_count):
     runs = []
