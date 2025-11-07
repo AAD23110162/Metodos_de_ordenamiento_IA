@@ -17,7 +17,7 @@ o en modo interactivo (leer una lista de números desde la entrada estándar).
 - Externos: algoritmos diseñados para ordenar datos que residen en memoria secundaria (archivos).
 
 ## Algoritmos incluidos (internos)
-
+- `001-tree_sort.py` — Ordenamiento por árbol (Tree Sort).
 - `002-insertion_sort.py` — Inserción directa (InsertionSort).
 - `003-selection_sort.py` — Selección directa (SelectionSort).
 - `004-bubble_sort.py` — Burbuja (familia de intercambio).

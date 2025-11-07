@@ -3,16 +3,12 @@
 --------------------------------
 Ordenamiento por árbol (Tree Sort) — implementación educativa.
 
-Modos:
-  - demo: python 001-tree_sort.py demo
-  - interactivo: python 001-tree_sort.py  (leer números por stdin)
-
 Entrada: números enteros separados por espacios.
 Salida: lista ordenada en stdout.
 
 Nota: Tree Sort construye un BST y realiza un recorrido inorder para obtener
 la secuencia ordenada. En árboles sin balancear, el peor caso es O(n^2).
-Autor: <tu nombre>
+Autor:Alejandro Aguirre Díaz
 """
 import sys
 from typing import Optional, List

@@ -1,9 +1,7 @@
 """
 002-insertion_sort.py
 Inserción directa (InsertionSort).
-Modo:
-  - demo: python 002-insertion_sort.py demo
-  - interactivo: python 002-insertion_sort.py
+
 """
 import sys
 
