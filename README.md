@@ -4,13 +4,6 @@
 **Descripción:** Compilado de métodos de ordenamiento (implementaciones y plantillas de scripts).    
 **Última modificación:** Jueves 6 de noviembre del 2025.
 
-## Qué hay en este repositorio
-
-Este repositorio contiene implementaciones y plantillas en Python de varios
-métodos de ordenamiento mencionados en la guía de la UDB (Guía 3 — Programación IV).
-Cada script sigue el formato "NNN-nombre.py" y puede ejecutarse en modo `demo`
-o en modo interactivo (leer una lista de números desde la entrada estándar).
-
 ## Tipos de ordenamiento
 
 - Internos: algoritmos que trabajan con los datos en memoria principal.
