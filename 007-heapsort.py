@@ -1,6 +1,9 @@
 """
 007-heapsort.py
-HeapSort mostrando pasos: construcción del heap y extracciones.
+
+Descripción: Implementa HeapSort; muestra la construcción del 
+heap (heapify) y las extracciones sucesivas de la raíz.
+
 Autor: Alejandro Aguirre Díaz
 """
 import sys

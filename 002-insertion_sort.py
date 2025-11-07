@@ -1,6 +1,9 @@
 """
 002-insertion_sort.py
-Inserción directa (InsertionSort) mostrando pasos.
+
+Inserción directa (InsertionSort)
+Descripción: Ordena una lista de enteros usando inserción directa; 
+muestra desplazamientos e inserciones paso a paso.
 
 Autor: Alejandro Aguirre Díaz
 """

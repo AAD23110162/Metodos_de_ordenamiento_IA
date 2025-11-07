@@ -1,6 +1,10 @@
 """
 004-bubble_sort.py
-Burbuja (BubbleSort) mostrando pasos.
+
+Burbuja (BubbleSort)
+Descripción: Ordena una lista por intercambio (burbuja); muestra swaps 
+y el estado después de cada pasada.
+
 Autor: Alejandro Aguirre Díaz
 """
 import sys

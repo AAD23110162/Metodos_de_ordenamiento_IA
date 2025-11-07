@@ -1,12 +1,14 @@
 """
 001-tree_sort.py
+
 Ordenamiento por árbol (Tree Sort) — implementación educativa con trazas.
 
 Entrada: números enteros separados por espacios.
 Salida: lista ordenada en stdout.
 
-Nota: Tree Sort construye un BST y realiza un recorrido inorder para obtener
-la secuencia ordenada. En árboles sin balancear, el peor caso es O(n^2).
+Tree Sort construye un BST y realiza un recorrido inorder para obtener
+la secuencia ordenada.
+
 Autor: Alejandro Aguirre Díaz
 """
 import sys

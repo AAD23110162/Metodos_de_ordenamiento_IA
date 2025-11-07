@@ -1,6 +1,9 @@
 """
 011-radix_sort.py
-RadixSort (para enteros no negativos) mostrando cada pasada por dígito.
+
+Descripción: Ordena enteros no negativos por dígitos (radix); 
+muestra cada pasada por dígito y el estado intermedio.
+
 Autor: Alejandro Aguirre Díaz
 """
 import sys

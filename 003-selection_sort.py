@@ -1,6 +1,10 @@
 """
 003-selection_sort.py
-Selección directa (SelectionSort) mostrando pasos.
+
+Selección directa (SelectionSort)
+Descripción: Ordena una lista seleccionando repetidamente el mínimo;
+muestra la selección e intercambios por iteración.
+
 Autor: Alejandro Aguirre Díaz
 """
 import sys

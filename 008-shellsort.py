@@ -1,6 +1,10 @@
 """
 008-shellsort.py
-ShellSort (algoritmo de inserción con gaps) mostrando pasos.
+
+ShellSort (algoritmo de inserción con gaps)
+Descripción: Implementa ShellSort; muestra cada gap usado y 
+los desplazamientos/inserciones realizados en las sublistas.
+
 Autor: Alejandro Aguirre Díaz
 """
 import sys

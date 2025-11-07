@@ -1,6 +1,10 @@
 """
 012-enumeration_sort.py
-Clasificación por enumeración mostrando el cálculo de rangos paso a paso.
+
+Descripción: Implementa Enumeration Sort; para cada 
+elemento calcula su posición (rank) en la lista y construye el resultado, 
+mostrando los cálculos paso a paso.
+
 Autor: Alejandro Aguirre Díaz
 """
 import sys

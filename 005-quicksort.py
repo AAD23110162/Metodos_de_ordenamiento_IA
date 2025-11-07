@@ -1,6 +1,10 @@
 """
 005-quicksort.py
-QuickSort (familia de intercambio) mostrando pasos (particiones y swaps).
+
+QuickSort (familia de intercambio)
+Descripción: Implementa QuickSort in-place (partición tipo Lomuto); 
+muestra particiones, swaps y el estado tras cada partición.
+
 Autor: Alejandro Aguirre Díaz
 """
 import sys

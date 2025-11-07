@@ -1,6 +1,10 @@
 """
 013-hashing_sort.py
-Hashing / bucket sort (enfoque educativo) mostrando distribución y buckets.
+
+Descripción: Simula un ordenamiento por buckets (hashing): 
+distribuye elementos en buckets según una función simple y ordena cada bucket; 
+muestra la distribución y ordenado de cada bucket.
+
 Autor: Alejandro Aguirre Díaz
 """
 import sys

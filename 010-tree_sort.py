@@ -1,6 +1,10 @@
 """
 010-tree_sort.py
-Ordenamiento por árbol (Tree Sort) mostrando inserciones y recorrido inorder.
+
+Ordenamiento por árbol (Tree Sort)
+Descripción: Ordena una lista construyendo un árbol binario de búsqueda (BST) 
+y realizando un recorrido inorder; muestra inserciones en el árbol y visitas.
+
 Autor: Alejandro Aguirre Díaz
 """
 import sys

@@ -1,6 +1,10 @@
 """
 006-mergesort.py
-MergeSort (ordenamiento por mezcla) mostrando splits/merges.
+
+MergeSort (ordenamiento por mezcla)
+Descripción: Implementa MergeSort recursivo; 
+muestra cómo se dividen (splits) y cómo se mezclan (merges) las sublistas.
+
 Autor: Alejandro Aguirre Díaz
 """
 import sys

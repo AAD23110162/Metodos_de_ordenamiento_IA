@@ -1,6 +1,10 @@
 """
 009-binary_insertion.py
-Inserción binaria mostrando cada inserción en la lista resultante.
+
+Inserción binaria
+Descripción: Implementa inserción binaria 
+usando bisect.insort; muestra la lista resultante tras cada inserción.
+
 Autor: Alejandro Aguirre Díaz
 """
 import sys
