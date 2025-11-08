@@ -1,0 +1,8 @@
+# Command: /home/codespace/.python/current/bin/python3 023-polyphase.py 
+# Return code: 0
+
+Polyphase sort (esqueleto):
+  1) Determinar la distribución inicial de runs entre ficheros según series de Fibonacci.
+  2) Repetir mezclas usando un fichero como destino y las series para balancear el trabajo.
+  3) Requiere manejo de ficheros temporales y control de runs por archivo.
+(Implementación completa no incluida; esto es una guía educativa.)

@@ -1,0 +1,12 @@
+# Command: /home/codespace/.python/current/bin/python3 021-external_natural_merging.py demo
+# Return code: 0
+
+Input: [1, 2, 5, 3, 4, 8, 7, 9, 10]
+Natural runs detectadas: [[1, 2, 5], [3, 4, 8], [7, 9, 10]]
+Mezclando runs detectadas (straight merging):
+ Pass 1: mezclar pares -> [[1, 2, 5], [3, 4, 8], [7, 9, 10]]
+  merge [1, 2, 5] + [3, 4, 8] -> [1, 2, 3, 4, 5, 8]
+  run sin pareja: [7, 9, 10]
+ Pass 2: mezclar pares -> [[1, 2, 3, 4, 5, 8], [7, 9, 10]]
+  merge [1, 2, 3, 4, 5, 8] + [7, 9, 10] -> [1, 2, 3, 4, 5, 7, 8, 9, 10]
+Resultado final de la mezcla: [1, 2, 3, 4, 5, 7, 8, 9, 10]
