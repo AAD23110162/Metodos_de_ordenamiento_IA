@@ -1,4 +1,4 @@
-# Metodos_de_ordenamiento_IA
+# Metodos de ordenamiento IA
    
 **Autor:** Alejandro Aguirre Díaz   
 **Descripción:** Compilado de métodos de ordenamiento (implementaciones y plantillas de scripts).    
@@ -9,7 +9,7 @@
 - Internos: algoritmos que trabajan con los datos en memoria principal.
 - Externos: algoritmos diseñados para ordenar datos que residen en memoria secundaria (archivos).
 
-## Algoritmos incluidos (internos)
+## Algoritmos internos
 - `001-tree_sort.py` — Ordenamiento por árbol (Tree Sort).
 - `002-insertion_sort.py` — Inserción directa (InsertionSort).
 - `003-selection_sort.py` — Selección directa (SelectionSort).
@@ -24,7 +24,7 @@
 - `012-enumeration_sort.py` — Clasificación por enumeración (posición mediante conteo).
 - `013-hashing_sort.py` — Enfoque tipo "hash/bucket" (la guía menciona hashing en la familia de inserción).
 
-## Detalles de los algoritmos (descripciones breves y características)
+## Detalles de los algoritmos
 
 A continuación se encuentran descripciones más detalladas de cada algoritmo incluido, con una nota sobre su complejidad, estabilidad y uso típico.
 
@@ -142,40 +142,44 @@ A continuación se encuentran descripciones más detalladas de cada algoritmo in
 - `023-polyphase.py` — Esqueleto/explicación de Polyphase Sort (requiere I/O real para una implementación completa).
 - `024-distribution_initial_runs.py` — Distribución de runs iniciales (simulación de buckets/files).
 
-## Clasificación por familias (según la guía)
+## Clasificación por familias
 
 - Inserción: Inserción directa, ShellSort, Inserción binaria, Hashing (bucket).
 - Intercambio: Burbuja, QuickSort.
 - Selección: Selección directa.
 - Enumeración: Enumeration sort (descrito y provisto).
 
-## Cómo ejecutar un script (ejemplo)
+## Glosario técnico
 
-Ejecutar el demo de `insertion_sort`:
+Este glosario ofrece definiciones breves de términos y conceptos usados a lo largo del repositorio. Está pensado para que el lector comprenda rápidamente la terminología empleada en los scripts y descripciones.
 
-```bash
-python 002-insertion_sort.py demo
-```
+- Algoritmo: conjunto finito de instrucciones que transforma una entrada en una salida. En este repositorio, se refiere a rutinas de ordenamiento.
+- Estabilidad (stable): propiedad de un algoritmo de ordenamiento que preserva el orden relativo de elementos iguales.
+- In-place: algoritmo que realiza la ordenación usando espacio adicional constante O(1) (no requiere una copia completa de los datos).
+- Out-of-place / extra espacio: algoritmos que necesitan espacio adicional proporcional a la entrada (p. ej. O(n)).
+- Complejidad temporal (Big O): medida asintótica del tiempo de ejecución en función del tamaño de entrada n; se suele indicar por peor, promedio y mejor caso (O(n), O(n log n), O(n^2), etc.).
+- Complejidad espacial: cantidad de memoria adicional requerida por el algoritmo además de la entrada.
+- Caso mejor/promedio/peor: escenarios de entrada que provocan el mejor, el comportamiento típico y el peor rendimiento del algoritmo.
+- Run (corrida/serie ordenada): subsecuencia contigua de la entrada que ya está ordenada ascendentemente; concepto clave en ordenación externa (natural runs).
+- Mezcla / merge: operación que combina dos (o más) runs ordenadas en una única secuencia ordenada.
+- Paso/pasada (pass): una iteración completa sobre el conjunto de datos o sobre una estructura de runs (usado en mezclas externas).
+- Heap (montículo): estructura de datos tipo árbol que permite extraer el máximo o mínimo eficientemente; usada en HeapSort y k-way merges.
+- BST (árbol binario de búsqueda): estructura de árbol donde para cada nodo, los valores menores están a la izquierda y los mayores a la derecha; se usa en Tree Sort e inorder traversal.
+- Inorder traversal (recorrido inorder): visita de un BST que produce los elementos en orden ascendente.
+- Pivot (pivote): elemento elegido en QuickSort para particionar la lista en menores y mayores.
+- Partición (partition): proceso de reorganizar la lista según el pivote durante QuickSort.
+- k-way merge (mezcla k-vías): combinación de k runs ordenadas a la vez, normalmente implementada con una cola de prioridad (heap) para eficiencia.
+- Polyphase: estrategia de ordenación externa que distribuye runs entre ficheros según patrones (p. ej. Fibonacci) para equilibrar pasadas y minimizar I/O; aquí se presenta como esqueleto didáctico.
+- Bucket / Bins (cubetas): contenedores en los que se distribuyen elementos por una función de mapeo antes de ordenar cada cubeta (Bucket Sort / hashing-like).
+- Counting sort: ordenamiento estable por conteo que cuenta ocurrencias de claves (útil como subrutina en Radix Sort).
+- Radix sort: ordenamiento por dígitos que aplica un ordenamiento estable por cada posición de dígito (LSD o MSD).
+- Adaptativo / presortedness: grado en que una entrada ya está ordenada; algoritmos adaptativos aprovechan presortedness para mejorar el rendimiento.
+- Recursión / profundidad de recursión: llamada repetida a una función desde sí misma; importante para QuickSort y MergeSort (control de pila/stack).
+- I/O passes (pasadas de E/S): en ordenación externa, cantidad de lecturas/escrituras secuenciales sobre ficheros necesarias para obtener el resultado final.
+- Buffer: área de memoria temporal usada para acumular datos leídos/escritos antes de realizar operaciones de E/S; reducir pases y optimizar buffers mejora el rendimiento externo.
+- Distribución round-robin: forma simple de asignar runs a múltiples ficheros/cubetas de manera cíclica.
+- Estimación amortizada: análisis que promedia el coste de una operación a lo largo de una secuencia de operaciones para obtener un coste medio por operación.
 
-Ejecutar en modo interactivo (leer números desde stdin):
 
-```bash
-python 002-insertion_sort.py
-# luego escribir: 5 2 9 1 3
-```
-
-## Notas
-
-- Para los algoritmos externos he incluido simulaciones y stubs porque una
-	implementación completa requiere manejo de archivos, lectura/escritura en disco y
-	generación de runs (más adecuada para datasets grandes y pruebas externas).
-- La guía que motivó estas plantillas incluye ejemplos en C# de Burbuja e
-	InsertionSort; aquí se han proporcionado equivalentes en Python como referencia.
-
-## Siguientes pasos sugeridos
-
-- Completar la descarga y extracción del PDF para incorporar citas y páginas exactas (tarea pendiente en el TODO).
-- Añadir pruebas unitarias para cada script.
-- Implementar versiones con I/O sobre archivos para los métodos externos si se desea probar con datasets grandes.
 
 
